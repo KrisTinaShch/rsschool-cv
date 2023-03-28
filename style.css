@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    color: white;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: #232323;
+    font-weight: 900;
+    transition: 0.3s ease;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #232323;
+    font-weight: 100;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+
+.container:hover {
+    box-shadow: 0px 0px 36px -1px rgb(242 46 98);
+    background: rgb(242 46 98);
+    color: #fff;
+}
+
+.container:hover .link {
+    color: #fff;
+}
+
+.cv__list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.list__element {
+    padding: 0.3rem;
+}
+
+.list__element.cv-photo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.cv__list1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cv__list2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.image {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
