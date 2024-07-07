@@ -58,7 +58,7 @@ img{
     flex-direction: column;
     align-items: flex-start;
 }
-#projects{
+#projects,#study{
     flex-direction: column;
     align-items: flex-start;
 }
