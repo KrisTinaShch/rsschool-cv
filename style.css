@@ -3,15 +3,37 @@
 body {
     color: white;
     background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #373737;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+section{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-
-
 }
-
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    gap: 20px;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #c9c9c9;
+}
 .link {
     text-decoration: none;
     color: #232323;
