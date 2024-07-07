@@ -4,33 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cv</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <ol class="cv-list">
-            <li class="list__element cv-photo"><img class="image" src="/1p5Ow2o6Xos.jpg" alt="noimg">Кристина</li>
-            <li class="list__element">kris.shcheglova@bk.ru</li>
-            <li class="list__element">Напротяжении 2 лет самостоятельно обучалась верстке , сперва использовала только
-                css и html,после этого начала изучать js , на данный момент работают фронтенд разработчиком</li>
-            <li class="list__element">навыки
-                <ol class="cv__list1">
-                    <li class="list__element">HTML и CSS на хорошем уровне
-                        <ol class="cv__lis2">
-                            <li class="list__element">SCSS</li>
-                            <li class="list__element">bootstrap</li>
-                        </ol>
-                    </li>
-                    <li class="list__element">Js на среднем уровне</li>
-                    <li class="list__element">C# и Python основы</li>
-                </ol>
-            </li>
-            <li class="list__element"> <a class="link" href="https://github.com/KrisTinaShch/rsschool-cv.git">https://github.com/KrisTinaShch/rsschool-cv.git</a></li>
-            <li class="list__element">Опыта работы в Front-end 1 год.</li>
-            <li class="list__element">Среднее образование закончила в городе Варна</li>
-            <li class="list__element">Английский знаю на уровне A1-A2</li>
-        </ol>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#study">Study Projects</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- about me -->
+        <section id="about" class="container">
+            <div class="about-image">
+                <img src="about-me.jpg" alt="my-image">
+            </div>
+            <div class="about-text">
+                I am a 20-year-old frontend developer with two years of professional experience in the field. Over the past two years, I have been dedicated to developing and maintaining websites, creating engaging and responsive landing pages, and implementing new functionalities to enhance user experience.
+            </div>
+        </section>
+
+        <!-- skills -->
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <div class="about-text">
+                
+                <ul class="skills">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SCSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Figma</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+
+         <!-- projects -->
+         <section id="projects" class="container">
+            <h2>Projects</h2>
+           <div class="projects">
+            <div class="project-item">
+                <img src="airlab.png" alt="airlab">
+                https://kristinashch.github.io/airlabs/schedules/
+            </div>
+            <div class="project-item mt-2">
+                <img src="wowtea.png" alt="wowtea">
+                https://wowtea.eu/
+            </div>
+           </div>
+        </section>
+
+        <!-- contacts -->
+        <section id="contacts" class="container">
+            <h2>Contacts</h2>
+            <div>
+                <h2>Discord</h2>
+                <p>@kristinashch</p>
+                <h2>Email</h2>
+                <p>kris.shcheglova@bk.ru</p>
+            </div>
+
+        </section>
+
+         <!-- projects -->
+         <section id="study" class="container">
+            <h2>Study Projects</h2>
+           <div class="projects">
+            <div class="project-item">
+                <img src="virtual-keyboard.png" alt="keyboard">
+                https://kristinashch.github.io/virtual-keyboard/
+            </div>
+            <div class="project-item mt-2">
+                <img src="minesweeper.png" alt="minesweeper">
+                https://github.com/KrisTinaShch/minesweeper/tree/minesweeper
+            </div>
+           </div>
+        </section>
+        <section>
+            <!-- education -->
+        <section id="education" class="container">
+            <h2>Education</h2>
+            I completed my schooling in Bulgaria, specializing in Information Technology. My level of English proficiency is intermediate.
+        </section>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <a href="https://github.com/KrisTinaShch" target="_blank">GitHub</a> | 
+            &copy; 2024 | 
+            <a href="https://rs.school/courses/javascript-ru" target="_blank">
+                <img src="rs-school-logo.svg" alt="logo">
+            </a>
+        </p>
+    </footer>
 </body>
 </html>
