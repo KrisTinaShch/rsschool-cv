@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #c9c9c9;
+    background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+header {
+    background-color: #373737;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c9c9c9;
+}
+
+.link {
+    text-decoration: none;
+    color: #232323;
+    font-weight: 900;
+    transition: 0.3s ease;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.container {
+    max-width: 70%;
+    margin: 30px auto;
+    gap: 10px;
+}
+
+.about-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.container:hover .link {
+    color: #fff;
+}
+
+.cv__list {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.list__element {
+    padding: 0.3rem;
+}
+
+.list__element.cv-photo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.cv__list1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cv__list2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+
+a {
+    color: #adadad;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+a:active {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+a:visited {
+    color: #adadad;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+    color: #dcdcdc;
+    overflow-x: auto;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #373737;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+footer img {
+    vertical-align: middle;
+    width: 50px;
+    height: auto;
+}
+
+@media(max-width:550px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
